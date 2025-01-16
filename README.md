@@ -3,7 +3,8 @@
 This methods generates synthetic samples using the statistics of the majority and the lower majority class samples.
 
 ## Usage
-```Python 3.10.12
+```
+Python 3.10.12
 Pytorch 2.0.1
 ```
 
