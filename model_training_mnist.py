@@ -258,7 +258,7 @@ if args['train']:
             ximg = decoder(xc_enc)
             mse2 = criterion(ximg,xcnew)
             comb_loss = mse2 + mse 
-            comb = mse2 + loss + loss_supcon # + mse 
+            comb = mse + mse2 + loss + loss_supcon 
             comb.backward()
             enc_optim.step()
             dec_optim.step()
