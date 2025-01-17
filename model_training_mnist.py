@@ -287,12 +287,8 @@ if args['train']:
                 os.mkdir(path_mnist)
             path_encoder = path_mnist \
                 + '/encoder'+str(temperature)+'.pth'
-            # if os.path.exists(path_encoder) == False:
-            #     os.mkdir(path_encoder)
             path_decoder = path_mnist \
                 + '/decoder'+str(temperature)+'.pth'
-            # if os.path.exists(path_decoder) == False:
-            #     os.mkdir(path_decoder)
 
             torch.save(encoder.state_dict(), path_encoder)
             torch.save(decoder.state_dict(), path_decoder)
