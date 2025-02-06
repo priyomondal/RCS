@@ -1,6 +1,6 @@
 # Rebalancing with Calibrated Sub-classes (RCS): An enhanced approach for Robust Imbalanced Classification
 
-This methods generates synthetic samples using the statistics of the majority and the lower majority class samples.
+This methods generates synthetic samples using the statistics of the majority and the intermediate class samples.
 
 ## Usage
 ```
