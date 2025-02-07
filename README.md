@@ -12,7 +12,7 @@ Pytorch 2.0.1
 
 - Extract training data and store in the data folder by running the script img_extract.py in data/dataset folder
 
-- Run the scripts img_extract.py and sample_extract.py in data/dataset folder for the validation data
+- Run the scripts img_extract_val.py and sample_extract.py in data/dataset folder for the validation data
 
 - run model_training_dataset.py (mention the dataset)
 
