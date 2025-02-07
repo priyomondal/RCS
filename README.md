@@ -18,6 +18,6 @@ Pytorch 2.0.1
 
 - run sample_generation_dataset.py (mention the dataset)
 
-- run classification.py
+- run classification.py (write the name of the dataset and the path for the oversampled and validation data)
 
 - The t-SNE plot for generated samples are included in sample_generation_dataset.py script
