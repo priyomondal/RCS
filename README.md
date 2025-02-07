@@ -14,7 +14,7 @@ Pytorch 2.0.1
 
 - Run the scripts img_extract_val.py and sample_extract.py in data/dataset folder for the validation data
 
-- run model_training_dataset.py (mention the dataset)
+- run model_training_dataset.py (mention the dataset) 
 
 - run sample_generation_dataset.py (mention the dataset)
 
